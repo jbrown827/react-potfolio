@@ -1,5 +1,7 @@
 import React from "react";
 import Style from "./Style.css";
+import { Link } from "react-router-dom";
+import Landing from "./Landing";
 
 const Nav = () => {
   return (
@@ -18,9 +20,15 @@ const Nav = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul className="navbar-nav mx-auto">
-            <li className="nav-item nav-link">About</li>
-            <li className="nav-item nav-link">Portfolio</li>
-            <li className="nav-item nav-link">Contact</li>
+            <Link to="/about">
+              <li className="nav-item nav-link">About</li>
+            </Link>
+            <Link to="/portfolio">
+              <li className="nav-item nav-link">Portfolio</li>
+            </Link>
+            <Link to="/contact">
+              <li className="nav-item nav-link">Contact</li>
+            </Link>
           </ul>
         </div>
       </nav>

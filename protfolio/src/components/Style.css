@@ -5,7 +5,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #4f738f;
+  background: white;
 }
 
 a {
@@ -26,6 +26,7 @@ a:active {
 
 .navbar {
   background: navy;
+  color: white;
   /* opacity: 1; */
 }
 
@@ -45,7 +46,14 @@ a:active {
   font-size: 26px;
 }
 
-.nav-link:hover {
+.nav-item {
+  margin: 0px 50px;
+}
+
+.nav-item:link,
+.nav-item:visited,
+.nav-item:hover,
+.nav-item:active {
   color: white;
 }
 
