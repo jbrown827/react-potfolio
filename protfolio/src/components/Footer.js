@@ -3,7 +3,7 @@ import Style from "./Style.css";
 
 const Footer = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar fixed-bottom">
       <div className="footer-div">
         <span>
           <a href="https://github.com/jbrown827">

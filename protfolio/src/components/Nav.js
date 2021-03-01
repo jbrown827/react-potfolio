@@ -18,21 +18,9 @@ const Nav = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul className="navbar-nav mx-auto">
-            <li className="nav-item">
-              <a className="nav-link" href="/">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/projects.html">
-                Portfolio
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/contact.html">
-                Contact
-              </a>
-            </li>
+            <li className="nav-item nav-link">About</li>
+            <li className="nav-item nav-link">Portfolio</li>
+            <li className="nav-item nav-link">Contact</li>
           </ul>
         </div>
       </nav>
