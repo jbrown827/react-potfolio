@@ -146,7 +146,8 @@ a:active {
 
 .card {
   text-align: center;
-  background: rgb(235, 231, 231);
+  background: rgb(255, 255, 255);
+  box-shadow: 2px 3px 5px black;
 }
 
 .card-header button {
