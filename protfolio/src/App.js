@@ -9,12 +9,14 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Nav />
-        <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Footer />
-      </div>
+      <Switch>
+        <div className="App">
+          <Nav />
+          <Route path="/" exact component={About} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Footer />
+        </div>
+      </Switch>
     </Router>
   );
 }
