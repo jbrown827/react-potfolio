@@ -1,0 +1,21 @@
+/* .nav {
+  background: navy;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.nav span {
+  font-size: 20px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.nav-links li {
+  margin: 0px 20px;
+} */
