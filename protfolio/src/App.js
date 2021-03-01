@@ -1,13 +1,14 @@
 import React from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
+import Portfolio from "./components/Porfolio";
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <About />
-      <h1>HELLO HELLO HELLO</h1>
+      <Portfolio />
     </div>
   );
 }
