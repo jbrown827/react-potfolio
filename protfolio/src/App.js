@@ -2,8 +2,8 @@ import React from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Portfolio from "./components/Porfolio";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Landing from "./components/Landing";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
           <Nav />
           <Route path="/" exact component={About} />
           <Route path="/portfolio" component={Portfolio} />
-          <Footer />
+          <Route path="/contact" component={Contact} />
         </div>
       </Switch>
     </Router>

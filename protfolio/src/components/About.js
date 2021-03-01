@@ -11,7 +11,7 @@ const About = () => {
           <div className="col-md-4 style-col">
             <img
               className="img-thumbnail"
-              src="/imgs/profile-pic-jaja.jpg"
+              src="../../public/images/profile.jpg"
               alt="profile picture"
               width="250px"
               height="250px"
