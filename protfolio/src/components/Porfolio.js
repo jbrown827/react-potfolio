@@ -2,12 +2,20 @@ import React, { useState } from "react";
 import Style from "./Style.css";
 import Project from "./Project";
 
+// Importing images
+import tantalus from "../images/tantalus-screenshot.jpg";
+import notes from "../images/note-taker.png";
+import fitness from "../images/fit-track-home.png";
+import partyX from "../images/party-x.png";
+import employee from "../images/emp-dir-screenshot.png";
+import planner from "../images/planner-screenshot.jpg";
+
 const Portfolio = () => {
   const [projects, setProjects] = useState([
     {
       id: 1,
       title: "Project Tantalus",
-      image: "/images/tantalus-screenshot.jpg",
+      image: tantalus,
       description:
         "Project Tantalus is a resource to to search for recipes or restaurants. Restaurants can be searched by city and cuisine type. Recipes can be searched based on main ingredient, meal type, and cuisine type. Search parameters use both textfields and dropdown menus.",
       repo: "https://github.com/jbrown827/Project-Tantalus",
@@ -16,7 +24,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: "Take Some Notes",
-      image: "/images/note-taker.png",
+      image: notes,
       description:
         "This application allows users to take and save notes, and also delete them when done. Using Express.js, a connection is made between the client and server via a series of HTTP request (GET, POST, and DELETE).",
       repo: "https://github.com/jbrown827/take-some-notes",
@@ -25,7 +33,7 @@ const Portfolio = () => {
     {
       id: 3,
       title: "Fitness Tracker",
-      image: "/images/fit-track-home.png",
+      image: fitness,
       description:
         "The fitness tracker app allows users the ability to create a new workout or continue a previous one. The user can add exercises to the pre-existing workout or start a new workout with new exercises. Using the dashboard users can view workout analytics via charts over a 7 day period.",
       repo: "https://github.com/jbrown827/fitness-tracker",
@@ -35,7 +43,7 @@ const Portfolio = () => {
     {
       id: 4,
       title: "Party X",
-      image: "/images/party-x.png",
+      image: partyX,
       description:
         "Welcome to the party! This full stack application built using MVC framework is a major milestone in the progression of four fledgling developers. Together we created an application that allows a user to create an account and login to an account dashboard. The dashboard will show the user a list of events that they can attend, view the upcomming events, and create events of their own.",
       repo: "https://github.com/jbrown827/Project-2",
@@ -44,7 +52,7 @@ const Portfolio = () => {
     {
       id: 5,
       title: "Employee Directory",
-      image: "/images/emp-dir-screenshot.png",
+      image: employee,
       description:
         "Employee Directory is a react app that allows an employer the ability to view non-sensitive data about their employees. The employer can sort and view names in ascending or descending order, or use the search bar to search for a specific name.",
       repo: "https://github.com/jbrown827/employee-directory",
@@ -53,7 +61,7 @@ const Portfolio = () => {
     {
       id: 6,
       title: "Schedule Planner",
-      image: "/images/planner-screenshot.jpg",
+      image: planner,
       description:
         "A calender application that allows users to save events for each hour of the day. The current day is displayed a top the screen, as the time blocks are colored coded based on the time of day (past,present, or future).",
       repo: "https://github.com/jbrown827/schedule-planner",

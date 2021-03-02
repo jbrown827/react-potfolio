@@ -1,5 +1,6 @@
 import React from "react";
 import Style from "./Style.css";
+import profile from "../images/profile.jpg";
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
           <div className="col-md-4 style-col">
             <img
               className="img-thumbnail"
-              src="/images/profile.jpg"
+              src={profile}
               alt="profile picture"
               width="250px"
               height="250px"
