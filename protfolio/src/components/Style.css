@@ -136,18 +136,25 @@ a:active {
 }
 
 .port-style {
+  background: rgb(241, 241, 241);
   margin-bottom: 30px;
-  /* padding-bottom: 10px; */
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .port-style .col {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .card {
   text-align: center;
-  background: rgb(255, 255, 255);
+  background: rgb(236, 236, 236);
   box-shadow: 2px 3px 5px black;
+  margin-top: 30px;
+}
+
+.card img {
+  padding: 10px;
 }
 
 .card-header button {
