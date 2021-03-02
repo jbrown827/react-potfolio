@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-potfolio/static/css/main.ee9f44e8.chunk.css",
-    "main.js": "/react-potfolio/static/js/main.38f293d4.chunk.js",
-    "main.js.map": "/react-potfolio/static/js/main.38f293d4.chunk.js.map",
+    "main.css": "/react-potfolio/static/css/main.b53a88c0.chunk.css",
+    "main.js": "/react-potfolio/static/js/main.dc593a06.chunk.js",
+    "main.js.map": "/react-potfolio/static/js/main.dc593a06.chunk.js.map",
     "runtime-main.js": "/react-potfolio/static/js/runtime-main.8fa56821.js",
     "runtime-main.js.map": "/react-potfolio/static/js/runtime-main.8fa56821.js.map",
     "static/js/2.921c9f48.chunk.js": "/react-potfolio/static/js/2.921c9f48.chunk.js",
@@ -10,13 +10,20 @@
     "static/js/3.59d33ed5.chunk.js": "/react-potfolio/static/js/3.59d33ed5.chunk.js",
     "static/js/3.59d33ed5.chunk.js.map": "/react-potfolio/static/js/3.59d33ed5.chunk.js.map",
     "index.html": "/react-potfolio/index.html",
-    "static/css/main.ee9f44e8.chunk.css.map": "/react-potfolio/static/css/main.ee9f44e8.chunk.css.map",
-    "static/js/2.921c9f48.chunk.js.LICENSE.txt": "/react-potfolio/static/js/2.921c9f48.chunk.js.LICENSE.txt"
+    "static/css/main.b53a88c0.chunk.css.map": "/react-potfolio/static/css/main.b53a88c0.chunk.css.map",
+    "static/js/2.921c9f48.chunk.js.LICENSE.txt": "/react-potfolio/static/js/2.921c9f48.chunk.js.LICENSE.txt",
+    "static/media/emp-dir-screenshot.0fdf275b.png": "/react-potfolio/static/media/emp-dir-screenshot.0fdf275b.png",
+    "static/media/fit-track-home.bc9aad98.png": "/react-potfolio/static/media/fit-track-home.bc9aad98.png",
+    "static/media/note-taker.114083bd.png": "/react-potfolio/static/media/note-taker.114083bd.png",
+    "static/media/party-x.62ab10db.png": "/react-potfolio/static/media/party-x.62ab10db.png",
+    "static/media/planner-screenshot.07e590a2.jpg": "/react-potfolio/static/media/planner-screenshot.07e590a2.jpg",
+    "static/media/profile.6ccf11b2.jpg": "/react-potfolio/static/media/profile.6ccf11b2.jpg",
+    "static/media/tantalus-screenshot.86408047.jpg": "/react-potfolio/static/media/tantalus-screenshot.86408047.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8fa56821.js",
     "static/js/2.921c9f48.chunk.js",
-    "static/css/main.ee9f44e8.chunk.css",
-    "static/js/main.38f293d4.chunk.js"
+    "static/css/main.b53a88c0.chunk.css",
+    "static/js/main.dc593a06.chunk.js"
   ]
 }
