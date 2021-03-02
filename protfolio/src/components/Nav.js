@@ -20,7 +20,7 @@ const Nav = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul className="navbar-nav mx-auto">
-            <Link to="/about">
+            <Link to="/">
               <li className="nav-item nav-link">About</li>
             </Link>
             <Link to="/portfolio">
